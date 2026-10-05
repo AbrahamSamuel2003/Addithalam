@@ -1,0 +1,862 @@
+ADDITHALAM FOUNDATION
+Website Content Extraction
+& International-Grade UI/UX Design Principles
+A complete record of everything published on addithalamfoundation.org (Home, About, Programs, Team, Contact), followed by researched best practices for nonprofit web design on mobile and desktop, and a detailed blueprint for applying them to this site.
+Item
+Detail
+Prepared
+Saturday, 3 October 2026
+Website
+https://addithalamfoundation.org
+Pages covered
+Home (fetched live), About, Programs, Team, Contact (supplied as pasted text)
+Not reviewed
+Volunteer page (/volunteer), Privacy Policy, Terms of Service, Sitemap, team bios behind the "Read Bio" buttons
+Document parts
+Part A: Website content extraction  |  Part B: Design principles and research  |  Part C: Application blueprint for the Foundation  |  Part D: Checklists, roadmap and sources
+Contents
+Part A: Website Content Extraction
+   A1 Organisation snapshot  |  A2 Purpose  |  A3 Mission, vision, values  |  A4 Who they serve
+   A5 Programs  |  A6 Team  |  A7 Volunteers  |  A8 Ways to get involved  |  A9 Contact and social
+   A10 Navigation and footer  |  A11 Inconsistencies  |  A12 What is not published
+Part B: International-Grade UI/UX Principles (research findings)
+   B1 to B15: clarity, audiences, mobile-first, thumb zone, forms, donation, trust, imagery, impact, accessibility, performance, visual identity, SEO/GEO, inclusion, analytics
+Part C: Application Blueprint for Addithalam Foundation
+   C1 Gap analysis  |  C2 Information architecture  |  C3 Homepage blueprint  |  C4 Page-by-page recommendations
+   C5 Mobile specification  |  C6 Desktop specification  |  C7 Visual system  |  C8 Donation flow  |  C9 Technical targets
+Part D: Checklists, Roadmap, Caveats and Sources
+Part A: Website Content Extraction
+Everything below is taken from the website as published. Where the Home page and About page word the same idea differently, both versions are recorded. Items marked "not published" were not present in the text supplied.
+A1. Organisation snapshot
+Item
+Detail
+Name
+Addithalam Foundation
+Page title
+Addithalam Foundation – Empowering Through Technology
+Hero headline
+Empowering Dreams Through Technology
+Hero sub-text
+Providing free IT education and skills training to underprivileged students, creating pathways to successful careers.
+Meta description
+Empowering underprivileged students with free, high-quality IT education and skills training.
+Core offering
+Free, high-quality IT education and skills training for underprivileged students
+Location
+Chennai, Tamil Nadu, India (no street address given)
+Email
+contact@addithalamfoundation.org
+Phone
+Not published
+Copyright line
+© 2026 ADDITHALAM FOUNDATION. All rights reserved. (The Home page fetched earlier showed © 2025.)
+Technology note
+Site metadata shows it was generated with v0.dev
+Hero CTA
+"Explore Our Programs" (Home page)
+Social media
+Platform
+Link
+Facebook
+https://www.facebook.com/profile.php?id=61575219778442
+Instagram
+https://www.instagram.com/addithalam_foundation/
+LinkedIn
+https://www.linkedin.com/company/addithalamfoundation
+YouTube
+https://www.youtube.com/@Addithalam.Foundation
+A2. Purpose of the Foundation
+Over the past year, the Foundation listened to the stories of aspiring students, determined women and bright young children. Each had a dream but little access to opportunity. Many wanted to enter the IT field, to learn, to grow and to contribute, but poverty, lack of resources and social barriers stood in the way.
+Addithalam Foundation was born from those stories. The founders saw talent, resilience and untapped potential, and decided to act. They began offering free, high-quality IT training and learning programs "to turn dreams into careers and struggles into success stories."
+About-page addition: Through skill-building, mentorship and compassionate support, the Foundation strives to empower the underserved and create a future where no dream is too distant and no voice goes unheard.
+A3. Mission, vision and core values
+Element
+Home page wording
+About page wording
+Mission
+To empower underprivileged students by providing free, high-quality IT education. Aims to break financial barriers and equip them with the essential skills needed to succeed in the ever-growing IT industry.
+To empower students with quality IT education, eliminating financial barriers and equipping them with essential skills for success in the IT industry.
+Vision
+A future where every talented individual, no matter their financial background, has the opportunity to pursue a successful career in IT, creating a positive impact on their lives and communities through the Foundation's support.
+A world where every student, regardless of background, has the opportunity to thrive and contribute positively to society.
+Core values (About page only)
+Value
+Meaning as published
+Integrity
+We act with honesty and transparency in all our endeavors.
+Inclusivity
+We welcome and support everyone, regardless of background.
+Innovation
+We embrace new ideas and approaches to create better solutions.
+Commitment
+We are dedicated to our mission and the success of our students.
+A4. Who the Foundation serves
+The About page calls its audience "the dreamers": people willing to work hard, who stay up late hoping for a better tomorrow and never stop believing in their potential despite hardship. It says they deserve more than encouragement: they deserve access, opportunity and a fair chance. The Foundation says it does not just teach technology; it opens doors, sparks confidence and helps young people believe they can build a future in tech.
+Audience
+Description (About page)
+Home page wording
+Students with Potential
+Talented young minds with limited resources but unlimited potential.
+Underprivileged students with limited resources but unlimited potential
+Women Seeking Opportunities
+Women aspiring for financial independence and career growth.
+Women aspiring for financial independence and career growth
+Children from Underserved Areas
+Young learners who deserve a brighter start and access to digital literacy.
+Young learners who deserve access to digital literacy
+A5. Programs
+Programs page intro: "Comprehensive training and support by Addithalam Foundation to empower underprivileged students." The page contains five program sections. All five buttons link to the #contact section of the Programs page.
+Program 1: IT Technical Skills Development  [button: Enroll Now]
+Helps students learn the technical skills needed to start a career in IT. Training is free and focused on real-world knowledge that companies look for.
+Basic computer and internet skills
+Programming languages such as Python, Java and HTML
+Building websites and simple apps
+Working with databases
+Introduction to cloud computing and DevOps
+Cybersecurity basics (staying safe online)
+Program 2: Soft Skills Training  [button: Learn More]
+Technical knowledge matters, but soft skills are just as necessary at work. The program helps underprivileged students improve how they communicate, work with others and present themselves with confidence.
+Communication Skills: speaking and writing clearly
+Teamwork: working well with others
+Time Management: managing time and tasks
+Emotional Intelligence: handling emotions and understanding others
+Leadership: taking initiative and responsibility
+Interview & Presentation Skills: preparing for job interviews and speaking in public
+Program 3: Career Guidance Sessions  [button: Register for Guidance]
+Choosing a career can be confusing for students with limited support and resources. The sessions help students understand their strengths, interests and the opportunities available.
+Understanding different career options
+Setting personal and professional goals
+Tips for choosing the right job or course
+Resume building and job search support
+Guidance from experienced professionals
+Program 4: College Student Training Program  [button: Apply for Training]
+Designed to help students build the skills needed to succeed in the professional world. Free training is offered to college students, especially those from underprivileged backgrounds.
+Basic and advanced IT skills
+Soft skills such as communication and teamwork
+Career guidance and goal setting
+Interview preparation and resume writing
+Hands-on projects and real-world practice
+Program 5: Women Empowerment in Tech  [button: Join the Program]
+Digital training and career support specifically for women and homemakers who want to enter or re-enter the workforce in the technology sector.
+Flexible learning schedules for busy women
+Specialized tech skills training
+Mentorship from women in tech
+Networking opportunities
+Job placement assistance
+Mentorship Program (Home page and footer only)
+The Home page lists Mentorship as its own program: one-on-one guidance from industry professionals to help students navigate their career path and personal growth. The footer also links to it (/programs#mentorship). The Programs page, however, has no separate Mentorship section; mentorship appears only inside other programs.
+Home page program card summaries
+Card
+Summary on Home page
+IT Technical Skills
+Free training in programming, web development, databases and more to prepare students for tech careers.
+Soft Skills Training
+Communication, teamwork, time management and leadership skills essential for workplace success.
+Mentorship Program
+One-on-one guidance from industry professionals to help students navigate their career path and personal growth.
+Career Guidance
+Personalized guidance to help students understand their strengths and explore career opportunities.
+College Student Training
+Specialized programs to make college students job-ready with practical skills and knowledge.
+Women Empowerment
+Digital training and career support specifically designed for women and homemakers.
+A6. Team
+Team page intro: "Meet the dedicated individuals who make Addithalam Foundation's mission possible." The team is organised into Founding Members, Core Team and Patron.
+Group
+Name
+Role
+LinkedIn / bio
+Founding Members
+Muthu Sivanantha Moorthy K
+Founder & Managing Trustee
+linkedin.com/in/muthu-sivanantha-moorthy-k; Read Bio
+Founding Members
+Keerthana Kannan
+Co-Founder & Treasurer
+linkedin.com/in/keerthana-kannan; Read Bio
+Founding Members
+Jerome Rajadurai
+Co-Founder & Trustee
+linkedin.com/in/jeromerajadurai; Read Bio
+Core Team
+Ajithkumar R
+Executive Committee
+Link points to the founder's profile (likely an error); Read Bio
+Core Team
+Jackson Paul J
+Secretary of IT and Digital Communications
+linkedin.com/in/jacksonpaulj; Read Bio
+Core Team
+Sriyamini
+Member
+linkedin.com/in/sriyamini-j; no bio button
+Core Team
+Archana Kannan
+Member
+linkedin.com/in/archana-kannan-4abaab216; no bio button
+Patron
+Praveen Gnanasekaran
+Advisor
+linkedin.com/in/praveen-gnanasekaran-54a4676; Read Bio
+Bio text behind the "Read Bio" buttons was not available and is not included here. The Home page shows Praveen Gnanasekaran simply as "Advisor"; the Team page places him under a "Patron" heading.
+A7. Volunteers
+The Team page includes an "Our Volunteers" section thanking volunteers who contribute time and expertise. Under "Join Our Volunteer Team", it calls volunteers the backbone of the Foundation: they bring diverse skills and perspectives that enrich programs and help reach more students. The call is open to IT professionals, educators, students, or anyone passionate about making a difference.
+Volunteer opportunities listed
+Technical Training & Mentorship
+Career Guidance & Counseling
+Event Organization & Support
+Content Creation & Digital Marketing
+Administrative & Logistical Support
+Button: Become a Volunteer, linking to https://addithalamfoundation.org/volunteer (page not reviewed).
+A8. Ways to get involved
+Volunteer: Home page call-to-action and Team page button
+Partner With Us: Home page call-to-action (destination not reviewed)
+Donate Now: button in the footer of every page (payment methods and details not shown in the text supplied)
+Contact form: Home and Contact pages
+Home page invitation: whether you want to volunteer, donate or partner, your support can help transform the lives of underprivileged students through education.
+A9. Contact page and social presence
+Heading: "Contact Addithalam Foundation". Sub-text: "Have questions or want to get involved? We'd love to hear from you." The Home page version adds that the team will "get back to you as soon as possible."
+Element
+Detail
+Form fields
+Your Name, Email Address, Phone Number, Subject, Your Message
+Submit button
+Send Message
+Get in touch: location
+Chennai, Tamil Nadu, India
+Get in touch: email
+contact@addithalamfoundation.org
+Phone / WhatsApp / street address / map
+Not published
+Follow Us
+Facebook, Instagram, LinkedIn, YouTube (links in A1)
+A10. Navigation, footer and legal pages
+Area
+Content
+Main navigation
+Home, About, Programs, Team, Contact
+Footer: Quick links
+Home, About Us, Our Programs, Our Team, Contact Us
+Footer: Our programs
+IT Skills Development, Soft Skills Training, Mentorship Program, Career Guidance, Women Empowerment
+Footer: Contact
+Chennai, Tamil Nadu, India; contact@addithalamfoundation.org
+Footer: other
+Tagline, four social icons, Donate Now button, © 2026
+Legal pages (not reviewed)
+Privacy Policy (/privacy), Terms of Service (/terms), Sitemap (/sitemap)
+Other pages referenced
+Volunteer (/volunteer)
+A11. Inconsistencies found on the site
+Ajithkumar R's LinkedIn link points to the founder's profile rather than his own.
+Mentorship Program is a program on the Home page and in the footer, but has no section on the Programs page.
+Mission and vision wording differs between the Home and About pages (underprivileged students vs. students; "every talented individual" vs. "every student").
+Praveen Gnanasekaran is "Advisor" on the Home page and listed under "Patron" on the Team page.
+Copyright year shows 2025 on one version of the Home page and 2026 on the others.
+Third audience group is "Young learners" on the Home page but "Children from Underserved Areas" on the About page.
+All program buttons (Enroll Now, Learn More, Register, Apply, Join) lead to the same contact section, so there is no distinct enrolment path per program.
+A12. What the website does not publish
+Legal registration details (trust or society number, Section 12A, 80G, Darpan ID, FCRA status)
+Year of founding (the site says only "over the past year")
+Student numbers, outcomes, placements, partners or testimonials
+Course duration, schedule, batch size, online/offline mode, eligibility criteria, how to apply
+Donation methods, bank or UPI details, tax-receipt information, and how funds are used
+Phone number, WhatsApp, street address or map
+Team bios (behind "Read Bio") and volunteer page content
+Privacy Policy, Terms of Service and Sitemap content
+Part B: International-Grade UI/UX Principles
+These principles come from 2026 research on nonprofit website design, WCAG 2.2 accessibility, Core Web Vitals, mobile UX and Indian NGO trust requirements. Each principle lists what the research found, then what it means in practice. Source names are given in brackets and full links appear in Part D.
+How to read this part: "Evidence" summarises published findings. "In practice" is a design instruction. Where a statistic comes from a vendor or agency blog, treat it as directional rather than guaranteed.
+B1. Clarity above the fold (the five-second test)
+Evidence
+A homepage should tell a visitor who you are, what you do, why it matters and how to help within about five seconds, starting with a clear mission headline [Bloomerang, 2026].
+Clarity beats polish. A useful test is whether the site could belong to any other nonprofit in the sector [Elevation Web, 2026 checklist].
+Girls Who Code puts its mission statement at the centre of the hero, backed by imagery of the girls it serves [Kanopi].
+In practice
+Hero headline states the outcome ("Free IT training that turns talent into careers") rather than a generic slogan.
+One supporting sentence naming who it is for (students, women, young learners) and that it is free.
+Two buttons only: a primary action (Join a Program) and a secondary action (Donate or Volunteer).
+Use a real photograph of learners in a Foundation class instead of a stock image.
+B2. Pathways for every audience
+Evidence
+Nonprofit sites should serve donors, funders, decision-makers and activists; sites built like brochures underperform [DesignRush, 2026].
+Volunteer pathway design matters as much as donation pathway design for organisations that rely on volunteer labour [KrishaWeb].
+In practice
+Add a three-door section on the homepage: "I want to learn", "I want to volunteer or partner", "I want to support".
+Give each door its own landing page with a single clear action and an outcome statement.
+Add a dedicated CSR and partner page for companies, since Indian corporates fund much IT education.
+B3. Mobile-first design
+Evidence
+More than 60 per cent of nonprofit traffic comes from smartphones [Bloomerang, 2026]; about 60 per cent of global web traffic is mobile [Incremys, 2026].
+Among visitors who reached a primary donation page, 11 per cent on desktop completed a gift versus 8 per cent on mobile [M+R Benchmarks 2026, via DesignRush]. Only 1.6 per cent of nonprofit visitors donated in 2025 [same source].
+The 2026 benchmark for a donation form is completion in under two minutes on a phone with no friction [Big Sea, 2026].
+In practice
+Design every screen at 360 px width first, then enhance for tablet and desktop.
+Treat Join, Donate and Volunteer forms as the most important screens on mobile and test them on real mid-range Android phones.
+Avoid horizontal scrolling, tiny text, hover-only interactions and pop-ups that cover the screen.
+B4. Thumb-zone navigation and sticky actions
+Evidence
+Primary actions work best in the lower part of the screen, within natural thumb reach; sticky bottom call-to-action bars keep them visible on long pages [Parachute Design].
+Primary navigation should not be hidden behind a hamburger menu unless necessary [Fahrenheit Marketing].
+Thumb-zone maps are design heuristics, not guaranteed conversion lifts [Atticus Li].
+In practice
+Add a sticky bottom bar on mobile with two buttons: "Join a Program" and "Donate".
+Keep the top bar simple: logo, language switch and menu. Use a full-screen or bottom-sheet menu with large labelled items.
+Keep destructive or secondary actions away from the primary button to avoid mis-taps.
+B5. Short, friction-free forms
+Evidence
+Each extra form field raises abandonment on mobile [Taboola mobile UX guide, 2026].
+Non-essential fields can move to a follow-up step after the first submission [Orbit Forms, 2026].
+Input text should be at least 16 px to stop iOS auto-zoom, and labels must be attached to fields [mobile UX references].
+In practice
+Enrolment form: name, mobile number, program and city only. Collect qualification, age and other details after first contact.
+Use correct input types (tel, email), autofill attributes and visible labels above fields, never placeholder-only labels.
+Show inline, friendly error messages and a clear confirmation screen that states what happens next and when.
+Offer WhatsApp as an alternative contact route for people who dislike forms.
+B6. A frictionless donation experience
+Evidence
+A prominent donate button on every page should lead to a fast, mobile-first form with UPI and cards [IRPR NGO guide].
+A credible Indian charity site offers UPI, net banking and cards, plus an instant acknowledgement email [Narayan Seva guide].
+Donors receive Form 10BE for 80G claims, and 80G needs a traceable, non-cash payment [Smile Foundation].
+Girls Who Code's donation page includes a short FAQ explaining how donations are spent [Kanopi].
+In practice
+Create a dedicated Donate page with preset amounts, a monthly option and "what your gift does" lines (for example, what a month of training costs).
+Place UPI QR and deep-link buttons first on mobile, then cards and net banking.
+Show 80G, 12A, PAN and Darpan details beside the form and send an instant receipt.
+After donating, show a thank-you page with a next step (follow on social, share, volunteer).
+B7. Trust and transparency (critical for Indian NGOs)
+Evidence
+A credible site displays its registration number and makes its 80G certificate downloadable [Narayan Seva guide].
+Donors check Darpan ID, 12A and 80G status, audited annual reports and verifiable programmes [Smile Foundation].
+No Indian trust, society or Section 8 company may receive foreign donations without FCRA registration or prior permission [Smile Foundation].
+Warning signs include donation requests via personal UPI IDs or WhatsApp links only [Smile Foundation].
+Visible trust signals are one of seven core items on the 2026 nonprofit website checklist [Elevation Web].
+In practice
+Add a Transparency page: legal name, registration type and number, PAN, 12A and 80G validity dates, Darpan ID, FCRA status (or a clear note if not applicable), board list, annual report and audited accounts.
+Repeat a compact trust strip (registration + 80G badge) in the footer and on the Donate page.
+Never route donations through a personal UPI ID; use an institutional account and payment gateway.
+Publish an up-to-date Privacy Policy and Terms, and link them from every form.
+B8. Imagery and storytelling with dignity
+Evidence
+People-centred imagery that shows impact is a core best practice [Neon One, 2026].
+Photography that shows dignity and agency alongside need builds stronger long-term support than imagery focused only on suffering [KrishaWeb].
+In practice
+Replace stock photos with consented photographs of real classes, mentors and graduates. Show learners doing, building and presenting, not posing as recipients of charity.
+Write stories in the learner's own words: where they started, what they learned, what they do now.
+Obtain written consent (and guardian consent for minors) and protect identity where requested. Add descriptive alt text to every image.
+B9. Visible impact and social proof
+Evidence
+The best education nonprofits surface impact early. Code.org shows facts directly below its hero image [Zarla review].
+Donors in 2026 are described as more data-driven, so radical transparency and impact evidence matter [Redberries, 2026].
+A homepage that talks about the organisation's history instead of its impact is a common mistake [IRPR NGO guide].
+In practice
+Add an impact strip under the hero with real numbers: learners trained, women supported, batches completed, placements or internships, volunteers.
+If numbers are still small, show them honestly with dates; credibility matters more than scale.
+Add a testimonials carousel that is keyboard- and swipe-accessible, with a pause control.
+Add partner and mentor logos (with permission) once available.
+B10. Accessibility: WCAG 2.2 Level AA as the floor
+Evidence
+WCAG 2.2 AA includes everything from 2.1 AA plus new criteria such as Target Size (Minimum) of 24 by 24 CSS pixels; 44 by 44 is the more comfortable touch size [EZUD; WCAG 2.2 AA reference].
+Contrast must be at least 4.5:1 for normal text and 3:1 for large text; colour must not be the only way to convey information [MDN mobile accessibility checklist].
+Focus indicators need at least 3:1 contrast between focused and unfocused states [TestParty].
+Respect the user's reduced-motion setting [example design-system accessibility spec].
+In practice
+Meet 4.5:1 contrast for all body text and 3:1 for large text and UI borders (see palette in C7).
+Make every interactive element reachable by keyboard with a visible focus ring; add a skip-to-content link.
+Use semantic headings, landmarks and labelled form controls so screen readers (TalkBack, VoiceOver) work well.
+Underline in-text links, avoid text in images, support 200 per cent zoom without loss of content, and honour prefers-reduced-motion.
+Provide captions or transcripts for videos and test with real assistive technology, not only automated tools.
+B11. Performance and Core Web Vitals
+Evidence
+Good thresholds are Largest Contentful Paint (LCP) at or under 2.5 s, Interaction to Next Paint (INP) at or under 200 ms, and Cumulative Layout Shift (CLS) at or under 0.1, at the 75th percentile of real users [corewebvitals.io].
+Claims that Google tightened LCP were checked against Google's documentation on 14 August 2026 and the thresholds were unchanged [RGB.ir].
+Mobile scores are typically worse than desktop because CPU and network are constrained [Sizzy].
+Slow pages lose donors before they load [IRPR NGO guide].
+In practice
+Compress images to WebP or AVIF, set explicit width and height, and lazy-load below-the-fold media.
+Use one or two font families, subset them (include Tamil if used) and preload only the key font.
+Keep JavaScript light; avoid heavy sliders, autoplay video and third-party widgets on the homepage.
+Test on a throttled 4G connection and a mid-range Android device; monitor field data in Search Console.
+B12. Visual identity, typography and layout
+Evidence
+A cohesive brand identity across site, social media and print builds recognition [Name.com guide, 2026].
+Clean, intuitive layouts like charity: water's are repeatedly cited as a benchmark [Big Sea, 2026].
+Warm, colourful design with positive imagery gives an inviting feel [CyberOptik].
+In practice
+Choose a limited palette (primary, accent, neutrals, status colours) with tested contrast, and use it consistently.
+Use a clear type scale with generous line height (1.5 for body) and a maximum line length of about 70 characters.
+Use a consistent spacing system (8 px grid), card patterns and iconography so pages feel related.
+Use the Foundation's logo and one illustration or photo style throughout.
+B13. Content, SEO and generative-engine visibility
+Evidence
+Content that both Google and AI assistants can cite is on the 2026 checklist; preparing for this is called generative engine optimization (GEO) [Elevation Web, 2026].
+Homepage copy should be written to answer who, what, why and how [Bloomerang, 2026].
+In practice
+Write plain-language program pages that answer: who is it for, what will I learn, how long, what does it cost (free), how do I apply.
+Add an FAQ and structured data (Organization, NGO, Course, Event) so search engines and AI tools can quote accurate facts.
+Use descriptive page titles and meta descriptions, a sitemap and clean URLs.
+Publish regular updates (batch completions, events, stories) to show the organisation is active.
+B14. Inclusive and bilingual design (recommendation)
+This principle is a recommendation based on the Foundation being in Chennai, Tamil Nadu and serving first-generation learners. I did not find research that tests it directly, so treat it as a design judgement to validate with the Foundation's audience.
+In practice
+Offer English and Tamil with a visible language switch, and translate the key pages first: Home, Programs, Apply, Donate.
+Use a well-hinted Tamil web font and test line-breaks, since Tamil text is usually longer and needs larger line height.
+Write at a plain reading level, avoid jargon (explain DevOps and cloud in a short phrase), and use icons with text labels.
+Support low-end devices and patchy networks: small pages, offline-friendly forms and WhatsApp contact.
+B15. Measurement and continuous improvement
+Evidence
+A website is never finished: wire up analytics and conversion tracking, then fix the biggest leaks first, usually page speed, the donate flow and mobile experience [IRPR NGO guide].
+Analytics you actually check is one of seven items on the 2026 nonprofit checklist [Elevation Web].
+In practice
+Track: enrolment form starts and completions, donation page visits and completions, volunteer sign-ups, scroll depth, and Core Web Vitals.
+Review monthly; run one improvement experiment per month (for example, hero headline or button wording).
+Collect learner feedback after each batch and use it to update stories and program pages.
+Part C: Application Blueprint for Addithalam Foundation
+This part turns the principles in Part B into specific recommendations, based on what the site currently publishes (Part A). Items marked "Foundation to supply" need real information that only the Foundation has.
+C1. Gap analysis
+Area
+Current state
+Gap
+Priority
+Trust
+No registration, 12A/80G, Darpan or FCRA details
+Biggest credibility gap for donors and CSR partners
+High
+Impact evidence
+No numbers, stories or outcomes
+Nothing proves results; visitors cannot judge quality
+High
+Donation
+Donate Now button only; flow, UPI, receipts not visible
+Likely to lose donors; unclear 80G handling
+High
+Enrolment
+All five program buttons lead to one contact form
+No distinct apply path; no duration, mode or eligibility
+High
+Imagery
+Generic stock photos
+Does not show real learners or classes
+Medium
+Contact
+Email and a form only
+No phone, WhatsApp or address; hard for first-time learners
+Medium
+Structure
+Mentorship program missing on Programs page; inconsistent wording
+Confusing for visitors and search engines
+Medium
+Team
+Missing bios; one wrong LinkedIn link
+Looks unfinished; reduces credibility
+Medium
+Language
+English only
+Misses Tamil-speaking learners and parents (recommendation)
+Medium
+Accessibility and speed
+Not yet audited
+Needs WCAG 2.2 AA and Core Web Vitals check
+Medium
+C2. Recommended information architecture
+Section
+Pages
+Purpose
+Home
+Home
+Explain mission fast, show impact, route visitors to the right door
+Programs
+Overview + one page each: IT Skills, Soft Skills, Career Guidance, College Training, Women in Tech, Mentorship
+Give detail, outcomes, duration, eligibility and a specific Apply button
+Impact
+Impact numbers, Learner stories, Gallery, Updates
+Prove results with real people and data
+Get Involved
+Donate, Volunteer, Partner / CSR
+Convert supporters, volunteers and companies
+About
+Our story, Mission/Vision/Values, Team, Transparency (registrations, reports)
+Build trust and accountability
+Contact
+Contact, FAQ, Apply
+Answer questions and capture leads
+Legal
+Privacy Policy, Terms, Sitemap
+Compliance and trust
+C3. Homepage blueprint (same order on mobile and desktop)
+#
+Section
+Content
+Mobile
+Desktop
+1
+Header
+Logo, nav, language switch, Donate button
+Compact bar; menu opens full screen
+Sticky header with visible Donate
+2
+Hero
+Outcome headline, who it's for, Join + Donate buttons, real photo
+Photo below text; buttons full width
+Two-column: text left, photo right
+3
+Impact strip
+4 real numbers (learners, women, batches, placements)
+2 x 2 grid
+4 in a row
+4
+Three doors
+Learn / Volunteer or Partner / Support
+Stacked cards
+Three cards across
+5
+Programs
+Six program cards with outcome line and Apply link
+One column; swipeable
+Grid of 3 x 2
+6
+Stories
+Learner photo, quote, outcome
+Swipe carousel with pause
+Three visible at once
+7
+How we work
+3-step path: Apply, Learn, Get career support
+Vertical timeline
+Horizontal steps
+8
+Trust and donations
+Registration, 80G badge, how funds are used, annual report link
+Accordion
+Two-column
+9
+Team and partners
+Founders, mentors, partner logos
+Photo cards
+Row of cards
+10
+Final call to action
+Join / Donate / Volunteer
+Full-width buttons
+Centered band
+11
+Footer
+Links, contact, social, trust strip, legal
+Accordion groups
+Four columns
+*
+Sticky bar (mobile)
+Join a Program + Donate
+Always visible at bottom
+Not shown
+C4. Page-by-page recommendations
+Programs (overview and each program page)
+Each program page: one-line outcome, who it is for, what you will learn, duration and weekly hours, mode (online, offline, hybrid), prerequisites, certificate or support offered, upcoming batch dates, and a program-specific Apply button. (Foundation to supply.)
+Add a "Mentorship" page so the footer and Home links are consistent.
+Turn the skills lists into a clear learning path (for example, Beginner, Intermediate, Job-ready) with sample projects.
+Show trainer or mentor names and photos where possible.
+About and Transparency
+State the founding year and the story of the first batch.
+Publish registration type and number, PAN, 12A and 80G validity dates, Darpan ID and FCRA status. (Foundation to supply.)
+Provide the latest annual report and a simple "where your money goes" chart.
+Team
+Fix Ajithkumar R's LinkedIn link and add short bios for everyone, with a consistent photo style.
+Use "Read Bio" as an expandable card or dedicated page that works on touch and keyboard.
+Keep the Founding Members, Core Team and Patron groups; use the same title for the Advisor on every page.
+Volunteer
+List each role with time commitment, skills needed, location (remote or Chennai) and a short sign-up form.
+Show volunteer stories and a monthly volunteer count to build momentum.
+Contact
+Add phone, WhatsApp click-to-chat, working hours, address (or area) and an embedded map link.
+Add a short FAQ: Is it free? Who can apply? How long are courses? Do I need a laptop?
+Confirm form submissions with a clear message and an auto-reply email.
+Donate
+See C8 for the full donation flow.
+C5. Mobile specification
+Element
+Specification
+Base layout
+Designed at 360 px width; single column; side padding 16 px
+Touch targets
+At least 44 x 44 CSS px with at least 8 px between targets (WCAG 2.2 minimum is 24 px)
+Text size
+Body 16 px minimum; inputs 16 px minimum; line height about 1.5
+Primary navigation
+Header menu opens full-screen with large labels; language switch visible
+Sticky action bar
+Bottom bar with "Join a Program" and "Donate"; hides on form screens to avoid blocking fields
+Forms
+One column, labels above fields, correct keyboard types, 3 to 4 fields on first step, full-width submit button
+Contact shortcuts
+Tap-to-call and WhatsApp buttons
+Media
+Responsive images with explicit dimensions; video not autoplaying; lazy-loading
+Carousels
+Swipe plus visible controls and pause; avoid auto-rotation
+Pop-ups
+None on first visit; any banner must not cover primary actions
+C6. Desktop specification
+Element
+Specification
+Layout
+Max content width about 1200 px; 12-column grid; generous white space
+Header
+Sticky; logo left, five-to-six nav links, language switch, Donate button at right
+Hero
+Two columns with real photo; buttons side by side
+Cards
+Three-column grids for programs, stories and team; equal heights
+Reading width
+Long text capped at roughly 70 characters per line
+Keyboard use
+Visible focus ring, logical tab order, skip-to-content link, dropdowns that open on focus as well as hover
+Footer
+Four columns: About, Programs, Get Involved, Contact; trust strip and legal links below
+C7. Visual system
+Suggested palette (contrast ratios calculated for this document)
+Role
+Hex
+Use
+Contrast / note
+Primary (deep teal)
+#0F4C5C
+Headings, header, links, primary brand
+9.5:1 on white
+Action (burnt orange)
+#B84A00
+Buttons with white text, key accents
+5.2:1 with white text (passes AA)
+Bright accent
+#E36414
+Icons, graphics, large decorative shapes only
+3.4:1 on white: not for small text
+Text (near black)
+#1B1B1B
+Body text
+17.2:1 on white
+Secondary text
+#4A5560
+Captions, helper text
+7.6:1 on white
+Warm background
+#FFF4E6
+Highlight bands and callouts
+15.9:1 with body text
+Cool tint
+#E8F3F5
+Alternate sections, table rows
+8.4:1 with primary teal
+Success
+#2E7D32
+Confirmation messages
+5.1:1 on white
+Error
+#C62828
+Error messages (with icon and text)
+5.6:1 on white
+These colours are a starting point. If the Foundation already has a logo palette, adopt it and re-check every text and background pair against 4.5:1 (normal text) and 3:1 (large text and UI components).
+Typography
+Style
+Mobile
+Desktop
+Notes
+H1
+30 px / 1.2
+44 px / 1.15
+Bold; one per page
+H2
+24 px / 1.25
+32 px / 1.2
+Section titles
+H3
+20 px / 1.3
+24 px / 1.3
+Card and sub-section titles
+Body
+16 px / 1.5
+17 to 18 px / 1.6
+Regular weight; 4.5:1 minimum
+Small / caption
+14 px / 1.4
+14 px / 1.4
+Use sparingly; not for essential info
+Button
+16 px bold
+16 px bold
+Sentence case, clear verb
+Use one clean sans-serif family for English (for example, Inter, Poppins or Noto Sans) and a matching Tamil face (for example, Noto Sans Tamil). Limit to two weights to keep pages fast.
+Components
+Component
+Rules
+Buttons
+Primary: filled burnt orange, white text, 48 px tall on mobile; Secondary: teal outline; clear hover, focus and pressed states; verbs such as "Join a Program", "Donate", "Volunteer"
+Inputs
+Visible label above field, 48 px height, 16 px text, clear error text with icon, never colour alone
+Cards
+Consistent radius (12 to 16 px), light border or soft shadow, one primary action per card
+Icons
+Simple line icons with text labels; decorative icons hidden from screen readers
+Images
+Real photos, consistent crop and colour treatment, descriptive alt text, explicit dimensions
+Motion
+Subtle fade and slide under 300 ms; fully disabled when reduced motion is requested
+Spacing
+8 px grid; section padding 48 px mobile, 80 px desktop
+C8. Donation flow
+Entry points: Donate button in the header, hero, sticky mobile bar and footer, leading to one Donate page.
+Choose amount: preset amounts tied to outcomes (for example, the cost of one learner for a month; Foundation to supply real figures), plus "other amount" and a one-time or monthly toggle.
+Details: name, email, mobile and PAN (only if the donor wants an 80G receipt), with clear explanation of why PAN is needed.
+Pay: UPI (QR on desktop, app deep link on mobile) first, then cards and net banking, through an institutional payment gateway over HTTPS.
+Confirm: thank-you page and instant email receipt; Form 10BE and 80G details sent as the tax rules require.
+Reassure: beside the form, show registration and 80G details, a short "where your money goes" note, and a contact number for donor queries.
+Follow up: invite donors to follow social channels, share, volunteer, or become monthly supporters.
+C9. Technical and quality targets
+Area
+Target
+Largest Contentful Paint
+2.5 s or better at the 75th percentile on mobile
+Interaction to Next Paint
+200 ms or better
+Cumulative Layout Shift
+0.1 or lower
+Accessibility
+WCAG 2.2 Level AA; manual keyboard and screen-reader test on key flows
+Security
+HTTPS everywhere; secure payment gateway; spam protection on forms
+Privacy
+Plain-language privacy policy; consent for photos; minimal data collection
+Browser/device coverage
+Latest Chrome, Safari, Edge, Firefox; Android mid-range and iPhone; tablet and desktop
+SEO/GEO
+Unique titles and descriptions, structured data, sitemap, FAQ content, internal links
+Analytics
+Track enrolments, donations, volunteer sign-ups, drop-offs and Core Web Vitals
+Part D: Checklists, Roadmap, Caveats and Sources
+D1. Design and build checklist
+Area
+Check
+Done
+Clarity
+Hero answers who, what, why and how within five seconds
+[ ]
+Clarity
+Three audience doors on the homepage
+[ ]
+Mobile
+Sticky Join + Donate bar; thumb-friendly navigation
+[ ]
+Mobile
+Tap targets 44 px or more; text 16 px or more
+[ ]
+Forms
+Enrolment form is 3 to 4 fields; labels visible; clear confirmation
+[ ]
+Donation
+UPI first; instant receipt; 80G information visible
+[ ]
+Trust
+Registration, 12A, 80G, Darpan, FCRA status published
+[ ]
+Trust
+Annual report and "where money goes" published
+[ ]
+Impact
+Real numbers and learner stories on the homepage
+[ ]
+Imagery
+Real, consented photos with alt text
+[ ]
+Accessibility
+4.5:1 contrast, visible focus, skip link, semantic headings, reduced motion
+[ ]
+Performance
+LCP 2.5 s or better, INP 200 ms or better, CLS 0.1 or lower on mobile
+[ ]
+Content
+Each program page has duration, mode, eligibility and apply button
+[ ]
+Consistency
+Mentorship, mission/vision wording and titles are consistent
+[ ]
+Language
+Tamil version of key pages (recommended)
+[ ]
+SEO/GEO
+Structured data, FAQ, sitemap, meta descriptions
+[ ]
+Legal
+Privacy Policy and Terms reviewed and linked from forms
+[ ]
+Analytics
+Conversion tracking live and reviewed monthly
+[ ]
+D2. Suggested roadmap
+Phase
+Timing (suggested)
+Work
+Phase 1: Quick wins
+Weeks 1 to 2
+Fix inconsistencies (A11); add phone/WhatsApp; add registration and 80G details; replace key stock images; shorten forms; add sticky mobile bar
+Phase 2: Core rebuild
+Weeks 3 to 6
+New information architecture; per-program pages; Donate page with UPI; impact strip; stories; Transparency page; accessibility pass
+Phase 3: Growth
+Weeks 7 to 10
+Tamil version; Partner/CSR page; volunteer flow; structured data and FAQ; analytics dashboards
+Phase 4: Improve
+Ongoing
+Monthly review of vitals and conversions; A/B tests; new stories and updates each batch
+D3. Success measures
+Measure
+What to watch
+Enrolment conversion
+Share of visitors who start and finish the apply form
+Donation conversion
+Visitors who reach the Donate page and complete a gift; split mobile vs desktop
+Volunteer sign-ups
+Monthly sign-ups and active volunteers
+Engagement
+Time on key pages, scroll depth, returning visitors
+Performance
+Core Web Vitals pass rate on mobile field data
+Accessibility
+Audit issues open vs closed; user feedback
+Trust
+Transparency page views; donor queries about legitimacy (should fall)
+D4. Caveats
+Most research sources are agency, vendor or NGO-practice blogs. Treat conversion statistics as directional rather than guaranteed.
+Thumb-zone and sticky-bar figures come largely from e-commerce sources; the pattern transfers to nonprofit sites, but the percentages may not.
+The Home page was fetched live; the About, Programs, Team and Contact pages were supplied as pasted text. Layout, colours, images and any behaviour that is not visible in text were not reviewed.
+The Volunteer page, Privacy Policy, Terms of Service, Sitemap and team bios were not reviewed, so details on those pages are not included.
+The Tamil/bilingual recommendation and the suggested palette are design judgements, not research findings. The palette contrast ratios were calculated with the WCAG formula.
+Legal and tax points (80G, 12A, FCRA, Form 10BE) are summarised from published guides. The Foundation should confirm its own status and obligations with a qualified adviser before publishing claims.
+D5. Sources consulted
+Bloomerang: Nonprofit Fundraising Website Best Practices (2026) https://bloomerang.com/blog/nonprofit-fundraising-website-best-practices
+DesignRush: 7 Nonprofit Website Best Practices (2026), including M+R Benchmarks 2026 figures https://www.designrush.com/agency/website-design-development/trends/nonprofit-website-design-best-practices
+Elevation Web: Nonprofit Website Best Practices, The 2026 Checklist https://www.elevationweb.org/?p=2431
+Neon One: 10 Nonprofit Website Best Practices https://neonone.com/resources/blog/nonprofit-website-best-practices/
+Big Sea: Nonprofit Web Design Guide 2026 https://bigsea.co/articles/nonprofit-web-design-guide/
+Name.com: Building a Successful Nonprofit Website https://www.name.com/de-de/blog/building-a-successful-nonprofit-website
+Redberries: Beyond the Brochure, Guidelines for a High-Impact Nonprofit Website https://redberries.ae/beyond-the-brochure-guidelines-for-a-high-impact-nonprofit-website/
+KrishaWeb: 12 Best Nonprofit Website Designs in 2026 https://www.krishaweb.com/blog/best-nonprofit-website-designs/
+Kanopi: best nonprofit websites (Girls Who Code analysis) https://kanopi.com/?p=11217
+Zarla: Educational Website Examples (Code.org review) https://www.zarla.com/guides/educational-website-examples
+CyberOptik: Best Nonprofit Websites https://cyberoptik.net/blog/best-nonprofit-websites
+WCAG 2.2 AA reference https://wcag.dock.codes/documentation/wcag22aa
+EZUD: Touch Target Sizes and Mobile Accessibility https://ezud.com/touch-target-sizes-mobile-accessibility/
+MDN: Mobile accessibility checklist https://developer.mozilla.org/en-US/docs/Web/Accessibility/Mobile_accessibility_checklist
+TestParty: WCAG 2.2 new success criteria https://testparty.ai/blog/wcag-22-new-success-criteria
+corewebvitals.io: Core Web Vitals https://corewebvitals.io/core-web-vitals
+RGB.ir: Core Web Vitals thresholds have not changed in 2026 (checked 14 August 2026) https://rgb.ir/en/blog/core-web-vitals-thresholds-2026/
+Sizzy: Core Web Vitals Explained for Developers https://sizzy.co/blog/core-web-vitals-guide
+Incremys: A Pragmatic Approach to Improving Core Web Vitals in 2026 https://incremys.com/en/resources/blog/core-web-vitals
+Smile Foundation: How to verify an NGO before donating (Darpan, 12A, 80G, FCRA) https://www.smilefoundationindia.org/blog/verify-an-ngo-before-donating/
+Smile Foundation: Donate online to an NGO in India, 80G and Form 10BE https://www.smilefoundationindia.org/blog/?p=17112
+Narayan Seva: What Makes a Charity Website Trustworthy? https://www.narayanseva.org/best-charity-websites-in-india/
+IRPR: 10 Things Every NGO Website Needs to Convert Donors https://ngo.irpr.agency/guides/ngo-website-must-haves/
+Parachute Design: Mastering the Thumb Zone UX https://parachutedesign.ca/blog/thumb-zone-ux/
+Fahrenheit Marketing: Mobile UX best practices https://www.fahrenheitmarketing.com/services/design/ux-ui-design/mobile-ux-best-practices
+Taboola: 7 Must-Know Mobile UX Best Practices for 2026 https://www.taboola.com/marketing-hub/mobile-ux-best-practices/
+Orbit Forms: 9 Best Practices for Mobile Form Design https://orbitforms.ai/blog/best-practices-for-mobile-form-design
+Atticus Li: Thumb Zone Design (heuristics, not guarantees) https://atticusli.com/behavioral-science-glossary/thumb-zone-design/
+End of document.

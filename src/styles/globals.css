@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --color-brand-orange: #F68632;
+  --color-brand-orange-hover: #E07418;
+  --color-brand-orange-light: #FFF2E7;
+  --color-brand-dark: #231F20;
+  --color-brand-dark-2: #1A1A1A;
+  --color-bg-canvas: #FAF8F5;
+  --color-text-main: #231F20;
+  --color-text-body: #333333;
+  --color-text-muted: #666666;
+  --color-border: #EFECE8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: var(--color-text-body);
+  background-color: var(--color-bg-canvas);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manrope', 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+  color: var(--color-brand-dark);
+}
+
+/* Accessible focus ring using official brand orange */
+:focus-visible {
+  outline: 2px solid var(--color-brand-orange);
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F4F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F68632;
+}
+
+/* Hero Entrance Animations */
+@keyframes heroFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hero-1 {
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.animate-hero-2 {
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both;
+}
+
+.animate-hero-3 {
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
+}
+
+/* Production-Grade Tamil Typography & Spacing Rules */
+html[lang="ta"] {
+  font-family: 'Noto Sans Tamil', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: 0 !important;
+  line-height: 1.65;
+}
+
+html[lang="ta"] h1,
+html[lang="ta"] h2,
+html[lang="ta"] h3,
+html[lang="ta"] h4,
+html[lang="ta"] h5,
+html[lang="ta"] h6 {
+  font-family: 'Noto Sans Tamil', 'Manrope', 'Inter', sans-serif;
+  letter-spacing: 0 !important;
+  line-height: 1.35;
+}
+
+html[lang="ta"] p,
+html[lang="ta"] span,
+html[lang="ta"] button,
+html[lang="ta"] a {
+  letter-spacing: normal !important;
+}
+
+/* Word break & layout safety */
+p, h1, h2, h3, h4, h5, h6, span {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
