@@ -6,6 +6,7 @@ import Image from "next/image";
 import { ShieldCheck, Mail, MapPin, ExternalLink, ArrowRight } from "lucide-react";
 import { trustData } from "@/data/trustData";
 import { useLanguage } from "@/context/LanguageContext";
+import { getSocialLogo } from "@/components/common/SocialLogos";
 
 export default function Footer() {
   const { t, lang } = useLanguage();
@@ -27,15 +28,13 @@ export default function Footer() {
           
           {/* Column 1 & 2: Organization Snapshot & Logo */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="bg-white p-2.5 rounded-xl inline-block">
-              <div className="relative h-10 w-44">
-                <Image
-                  src="/images/logo/addithalam-logo.png"
-                  alt="Addithalam Foundation"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+            <div className="relative h-12 w-48 sm:w-52">
+              <Image
+                src="/images/logo/addithalam-logo-white.png"
+                alt="Addithalam Foundation"
+                fill
+                className="object-contain object-left"
+              />
             </div>
 
             <p className="text-slate-300 text-sm leading-relaxed max-w-sm">
@@ -75,6 +74,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/gallery" className="hover:text-[#F68632] transition-colors">
+                  {lang === "ta" ? "புகைப்படங்கள்" : "Gallery"}
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="hover:text-[#F68632] transition-colors">
                   {fT.contactLocation}
                 </Link>
@@ -104,12 +108,6 @@ export default function Footer() {
               {fT.supportTitle}
             </h4>
             <ul className="space-y-2 text-sm text-slate-300">
-              <li>
-                <Link href="/donate" className="hover:text-[#F68632] transition-colors flex items-center space-x-1">
-                  <span>{fT.donate80G}</span>
-                  <ArrowRight className="w-3 h-3 text-[#F68632]" />
-                </Link>
-              </li>
               <li>
                 <Link href="/contact" className="hover:text-[#F68632] transition-colors flex items-center space-x-1">
                   <span>{fT.volunteerInquiries}</span>
@@ -148,18 +146,18 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3">
             {trustData.socials.map((social) => (
               <a
                 key={social.platform}
                 href={social.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[#F68632] transition-colors flex items-center space-x-1 text-slate-400"
-                aria-label={`Addithalam Foundation on ${social.platform}`}
+                className="w-9 h-9 rounded-xl bg-[#231F20] border border-slate-700/80 text-slate-300 hover:text-white hover:bg-[#F68632] hover:border-[#F68632] transition-all duration-300 flex items-center justify-center group"
+                aria-label={`Official Addithalam Foundation ${social.platform} channel`}
+                title={`Follow Addithalam Foundation on ${social.platform}`}
               >
-                <span>{social.platform}</span>
-                <ExternalLink className="w-3 h-3" />
+                {getSocialLogo(social.platform, "w-4 h-4 transition-transform duration-200 group-hover:scale-110")}
               </a>
             ))}
           </div>

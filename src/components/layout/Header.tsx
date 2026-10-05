@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Globe, Menu, X, HeartHandshake } from "lucide-react";
+import { Globe, Menu, X } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Header() {
@@ -52,6 +52,7 @@ export default function Header() {
     { href: "/programs", label: navT.programs },
     { href: "/impact", label: navT.impact },
     { href: "/team", label: navT.team },
+    { href: "/gallery", label: navT.gallery },
     { href: "/contact", label: navT.contact },
   ];
 
@@ -92,7 +93,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`px-3.5 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive
                     ? "text-[#F68632] bg-[#FFF2E7] font-bold"
                     : "text-[#231F20] hover:text-[#F68632] hover:bg-black/5"
@@ -104,27 +105,17 @@ export default function Header() {
           })}
         </nav>
 
-        {/* Right Actions: Language Switch & Donate Button */}
-        <div className="hidden lg:flex items-center space-x-3">
-          {/* Language Toggle Button */}
+        {/* Right Actions: Centered Language Switch */}
+        <div className="hidden lg:flex items-center justify-center min-w-[110px]">
           <button
             onClick={toggleLang}
-            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-md text-xs font-semibold text-[#231F20] border border-slate-300 bg-white hover:bg-slate-50 transition-colors focus:outline-none"
+            className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-md text-xs font-semibold text-[#231F20] border border-slate-300 bg-white hover:bg-slate-50 hover:border-[#F68632]/50 shadow-xs transition-colors focus:outline-none"
             title="Switch Language / மொழியை மாற்றவும்"
             aria-label="Switch between English and Tamil"
           >
             <Globe className="w-3.5 h-3.5 text-[#F68632]" />
             <span>{lang === "en" ? "தமிழ்" : "English"}</span>
           </button>
-
-          {/* Tax-Exempt Donate CTA */}
-          <Link
-            href="/donate"
-            className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-lg bg-[#F68632] text-white text-sm font-bold hover:bg-[#E07418] active:scale-[0.98] transition-all shadow-xs"
-          >
-            <HeartHandshake className="w-4 h-4" />
-            <span>{navT.donate}</span>
-          </Link>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -166,16 +157,6 @@ export default function Header() {
                 </Link>
               );
             })}
-          </div>
-
-          <div className="pt-4 border-t border-slate-200 space-y-2">
-            <Link
-              href="/donate"
-              className="flex items-center justify-center space-x-2 w-full py-3 rounded-lg bg-[#F68632] text-white font-bold text-center shadow-xs"
-            >
-              <HeartHandshake className="w-5 h-5" />
-              <span>{navT.donate}</span>
-            </Link>
           </div>
         </div>
       )}

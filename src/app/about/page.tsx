@@ -130,15 +130,19 @@ export default function AboutPage() {
             {values.map((v) => (
               <div
                 key={v.title}
-                className="p-6 rounded-2xl bg-[#FAF8F5] border border-[#EFECE8] space-y-3"
+                className="p-6 sm:p-7 rounded-2xl sm:rounded-3xl bg-[#FAF8F5] border border-[#EFECE8] shadow-xs hover:border-[#F68632]/50 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
               >
-                <Award className="w-6 h-6 text-[#F68632]" />
-                <h3 className="font-heading font-bold text-lg text-[#231F20]">
-                  {v.title}
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  {v.desc}
-                </p>
+                <div>
+                  <div className="w-12 h-12 rounded-2xl bg-[#FFF2E7] text-[#F68632] flex items-center justify-center mb-4">
+                    <Award className="w-6 h-6" />
+                  </div>
+                  <h3 className="font-heading font-extrabold text-lg sm:text-xl text-[#231F20] mb-2">
+                    {v.title}
+                  </h3>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    {v.desc}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
@@ -161,18 +165,12 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0">
+          <div className="flex items-center justify-center shrink-0">
             <Link
               href="/contact"
-              className="px-6 py-3 rounded-xl bg-white text-[#231F20] font-bold text-sm hover:bg-slate-100 transition-colors"
+              className="px-7 py-3.5 rounded-xl bg-[#F68632] text-white font-bold text-sm hover:bg-[#E07418] transition-colors shadow-sm"
             >
               Get in Touch
-            </Link>
-            <Link
-              href="/donate"
-              className="px-6 py-3 rounded-xl bg-[#F68632] text-white font-bold text-sm hover:bg-[#E07418] transition-colors"
-            >
-              Donate Now (80G)
             </Link>
           </div>
         </div>

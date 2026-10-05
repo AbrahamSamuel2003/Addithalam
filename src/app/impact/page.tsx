@@ -128,16 +128,10 @@ export default function ImpactPage() {
           <p className="text-base text-slate-300 max-w-xl mx-auto leading-relaxed">
             {im.ctaDesc}
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/donate"
-              className="px-6 py-3.5 rounded-xl bg-[#F68632] text-white font-bold text-sm hover:bg-[#E07418] transition-colors"
-            >
-              {im.donateBtn}
-            </Link>
+          <div className="flex items-center justify-center pt-2">
             <Link
               href="/contact"
-              className="px-6 py-3.5 rounded-xl bg-white/10 text-white font-bold text-sm border border-white/20 hover:bg-white/20 transition-colors"
+              className="px-8 py-4 rounded-xl bg-[#F68632] text-white font-bold text-sm sm:text-base hover:bg-[#E07418] transition-colors shadow-md"
             >
               {im.contactBtn}
             </Link>

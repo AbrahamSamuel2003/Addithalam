@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, HeartHandshake } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function HeroSection() {
@@ -37,21 +37,14 @@ export default function HeroSection() {
           {h.subtext}
         </p>
 
-        {/* Compact Action Buttons with Staggered Transition */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-2 animate-hero-3 w-full sm:w-auto">
+        {/* Action Button: Properly Centered */}
+        <div className="flex items-center justify-center pt-2 animate-hero-3 w-full sm:w-auto">
           <Link
             href="/programs"
-            className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-7 py-3.5 rounded-lg bg-[#F68632] text-white font-bold text-sm hover:bg-[#E07418] active:scale-[0.98] transition-all shadow-md group"
+            className="w-full sm:w-auto inline-flex items-center justify-center space-x-2.5 px-8 py-4 rounded-xl bg-[#F68632] text-white font-bold text-sm sm:text-base hover:bg-[#E07418] active:scale-[0.98] transition-all shadow-lg group"
           >
             <span>{h.primaryCta}</span>
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-          </Link>
-          <Link
-            href="/donate"
-            className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-7 py-3.5 rounded-lg bg-white/10 text-white font-bold text-sm border border-white/30 hover:bg-white/20 active:scale-[0.98] transition-all backdrop-blur-xs"
-          >
-            <HeartHandshake className="w-4 h-4 text-[#F68632]" />
-            <span>{h.secondaryCta}</span>
           </Link>
         </div>
       </div>

@@ -48,12 +48,12 @@ export default function LeadershipPreview() {
               className="bg-white rounded-2xl border border-[#EFECE8] overflow-hidden shadow-xs hover:border-[#F68632]/50 hover:shadow-md transition-all flex flex-col justify-between"
             >
               {/* Image */}
-              <div className="relative aspect-square bg-slate-100 overflow-hidden">
+              <div className="relative aspect-square bg-gradient-to-b from-[#FFF8F3] via-[#FAF5F0] to-[#EFECE8] overflow-hidden">
                 <Image
                   src={member.image}
                   alt={`${member.name}, ${member.role}`}
                   fill
-                  className="object-cover transition-transform duration-300 hover:scale-105"
+                  className="object-cover object-top transition-transform duration-500 hover:scale-105"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
@@ -109,12 +109,12 @@ export default function LeadershipPreview() {
             </button>
 
             <div className="flex items-center space-x-4">
-              <div className="relative w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-slate-200">
+              <div className="relative w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-slate-200 bg-gradient-to-b from-[#FFF8F3] to-[#EFECE8]">
                 <Image
                   src={selectedMember.image}
                   alt={selectedMember.name}
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                 />
               </div>
               <div>

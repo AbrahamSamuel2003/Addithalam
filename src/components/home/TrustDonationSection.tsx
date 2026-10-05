@@ -106,23 +106,14 @@ export default function TrustDonationSection() {
                 </div>
               </div>
 
-              {/* Action Button */}
-              <div className="pt-2">
-                <Link
-                  href="/donate"
-                  className="flex items-center justify-center space-x-2 w-full py-4 rounded-xl bg-[#F68632] text-white font-bold text-sm hover:bg-[#E07418] active:scale-[0.98] transition-all shadow-md"
-                >
-                  <span>{td.donateBtn}</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-
-              <div className="pt-1 text-center">
+              {/* Governance & Transparency Action */}
+              <div className="pt-3">
                 <Link
                   href="/about"
-                  className="text-xs font-semibold text-slate-500 hover:text-slate-800 underline"
+                  className="flex items-center justify-center space-x-2 w-full py-3.5 rounded-xl bg-[#231F20] text-white font-bold text-sm hover:bg-black active:scale-[0.98] transition-all shadow-sm group"
                 >
-                  {td.trustLink}
+                  <span>{td.trustLink}</span>
+                  <ArrowRight className="w-4 h-4 text-[#F68632] transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>
 

@@ -5,6 +5,7 @@ import { Mail, MapPin, MessageSquare, CheckCircle2, ChevronDown, ChevronUp, Exte
 import { trustData } from "@/data/trustData";
 import PageHero from "@/components/layout/PageHero";
 import { useLanguage } from "@/context/LanguageContext";
+import { getSocialLogo } from "@/components/common/SocialLogos";
 
 export default function ContactPage() {
   const { t, lang } = useLanguage();
@@ -130,21 +131,22 @@ export default function ContactPage() {
             </div>
 
             {/* Social Channels */}
-            <div className="space-y-2 pt-2">
+            <div className="space-y-2.5 pt-2">
               <p className="text-xs font-bold text-[#231F20] uppercase tracking-wider">
                 {c.followChannels}
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex items-center space-x-3">
                 {trustData.socials.map((s) => (
                   <a
                     key={s.platform}
                     href={s.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-3 py-1.5 rounded-lg bg-white border border-[#EFECE8] text-xs font-semibold text-slate-700 hover:text-[#F68632] hover:border-[#F68632]/40 flex items-center space-x-1"
+                    aria-label={`Official Addithalam Foundation ${s.platform} channel`}
+                    title={`Follow on ${s.platform}`}
+                    className="w-11 h-11 rounded-xl bg-[#FFF2E7] border border-[#F68632]/25 text-[#231F20] hover:bg-[#F68632] hover:text-white hover:border-[#F68632] shadow-xs hover:shadow-md hover:-translate-y-0.5 active:scale-95 transition-all duration-300 flex items-center justify-center group"
                   >
-                    <span>{s.platform}</span>
-                    <ExternalLink className="w-3 h-3 text-slate-400" />
+                    {getSocialLogo(s.platform, "w-5 h-5 transition-transform duration-200 group-hover:scale-110")}
                   </a>
                 ))}
               </div>
@@ -171,7 +173,7 @@ export default function ContactPage() {
                   <input
                     type="text"
                     required
-                    placeholder="e.g. Meenakshi Sundaram"
+                    placeholder={c.namePlaceholder || "Enter your name"}
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#F68632]"
@@ -186,7 +188,7 @@ export default function ContactPage() {
                     <input
                       type="email"
                       required
-                      placeholder="meenakshi@example.com"
+                      placeholder={c.emailPlaceholder || "Enter your email"}
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#F68632]"
@@ -199,7 +201,7 @@ export default function ContactPage() {
                     <input
                       type="tel"
                       required
-                      placeholder="+91 98400 12345"
+                      placeholder={c.phonePlaceholder || "Enter your phone number"}
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#F68632]"
@@ -244,7 +246,7 @@ export default function ContactPage() {
                   <textarea
                     rows={4}
                     required
-                    placeholder={lang === "ta" ? "உங்கள் தகவலை உள்ளிடவும்..." : "How can we assist you?"}
+                    placeholder={c.messagePlaceholder || "Enter your message"}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#F68632]"

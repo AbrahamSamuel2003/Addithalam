@@ -31,21 +31,23 @@ export default function ImpactMetricsBar() {
   ];
 
   return (
-    <section className="bg-[#231F20] text-white py-8 sm:py-10 border-y border-slate-800">
+    <section className="bg-[#1A1A1A] py-8 sm:py-12 border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6 divide-y sm:divide-y-0 sm:divide-x divide-slate-700/60">
-          {metrics.map((metric, idx) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+          {metrics.map((metric) => (
             <div
               key={metric.label}
-              className={`pt-6 sm:pt-0 ${idx !== 0 ? "sm:pl-6 lg:pl-8" : ""}`}
+              className="bg-[#231F20] rounded-2xl sm:rounded-3xl p-6 sm:p-7 border border-slate-700/70 shadow-md hover:border-[#F68632]/60 hover:shadow-xl transition-all duration-300 flex flex-col items-center justify-between text-center min-h-[160px]"
             >
-              <p className="font-heading font-extrabold text-3xl sm:text-4xl text-[#F68632] tracking-tight">
-                {metric.value}
-              </p>
-              <h3 className="text-base font-bold text-white mt-1">
-                {metric.label}
-              </h3>
-              <p className="text-xs text-slate-300 mt-1 leading-relaxed">
+              <div className="space-y-1.5 w-full">
+                <p className="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-[#F68632] tracking-tight">
+                  {metric.value}
+                </p>
+                <h3 className="text-base sm:text-lg font-bold text-white leading-snug">
+                  {metric.label}
+                </h3>
+              </div>
+              <p className="text-xs sm:text-sm text-slate-300 mt-2 leading-relaxed max-w-xs mx-auto">
                 {metric.description}
               </p>
             </div>

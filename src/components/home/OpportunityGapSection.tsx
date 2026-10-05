@@ -74,24 +74,33 @@ export default function OpportunityGapSection() {
 
           {/* Right Column: 4-Stage Bridge Diagram */}
           <div className="lg:col-span-7">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
               {steps.map((step) => (
                 <div
                   key={step.stage}
-                  className="p-6 rounded-2xl bg-white border border-[#EFECE8] shadow-xs hover:border-[#F68632]/50 hover:shadow-md transition-all space-y-3"
+                  className="p-6 sm:p-7 rounded-2xl sm:rounded-3xl bg-white border border-[#EFECE8] shadow-xs hover:border-[#F68632]/50 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group"
                 >
-                  <div className="flex items-center justify-between">
-                    <span className="font-heading font-extrabold text-2xl text-[#F68632]">
-                      {step.stage}
-                    </span>
-                    <ShieldCheck className="w-5 h-5 text-slate-300" />
+                  <div>
+                    {/* Icon on Top */}
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="w-12 h-12 rounded-2xl bg-[#FFF2E7] text-[#F68632] flex items-center justify-center group-hover:scale-110 group-hover:bg-[#F68632] group-hover:text-white transition-all duration-300 shadow-xs">
+                        <ShieldCheck className="w-6 h-6" />
+                      </div>
+                      <span className="font-heading font-extrabold text-xs px-2.5 py-1 rounded-full bg-[#FAF8F5] text-slate-500 border border-[#EFECE8]">
+                        Stage {step.stage}
+                      </span>
+                    </div>
+
+                    {/* Bold Title */}
+                    <h3 className="font-heading font-extrabold text-lg sm:text-xl text-[#231F20] mb-2 group-hover:text-[#F68632] transition-colors">
+                      {step.title}
+                    </h3>
+
+                    {/* Description */}
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                      {step.description}
+                    </p>
                   </div>
-                  <h3 className="font-heading font-bold text-lg text-[#231F20]">
-                    {step.title}
-                  </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    {step.description}
-                  </p>
                 </div>
               ))}
             </div>

@@ -8,7 +8,6 @@ import LearningJourney from "@/components/home/LearningJourney";
 import WomenInTechFeature from "@/components/home/WomenInTechFeature";
 import LearnerStories from "@/components/home/LearnerStories";
 import LeadershipPreview from "@/components/home/LeadershipPreview";
-import TrustDonationSection from "@/components/home/TrustDonationSection";
 
 export default function HomePage() {
   return (
@@ -39,9 +38,6 @@ export default function HomePage() {
 
       {/* 09. Leadership Preview */}
       <LeadershipPreview />
-
-      {/* 10. Institutional Trust & Donation Section */}
-      <TrustDonationSection />
     </>
   );
 }
